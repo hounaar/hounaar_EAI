@@ -1,0 +1,14 @@
+html body{
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+#container1 .form-group .form-control{
+    background: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+#container1 .form-group .btns{
+    text-align: center;
+}
+

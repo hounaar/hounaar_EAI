@@ -1,0 +1,35 @@
+html body{
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    text-align: center;
+}
+
+.container .row .col{
+    font-size: 25px;
+    color: gray;
+}
+#login {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+} 
+#signup{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,9,121,1) 49%);
+}
+#signup .modal-body .error{
+    display: none;
+    color :#931A00;
+    background-color: #ffbfbf;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+} 
+
+#login .modal-body .error-login{
+    display: none;
+    color :#931A00;
+    background-color: #ffbfbf;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+
+} 
